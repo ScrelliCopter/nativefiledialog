@@ -1,3 +1,5 @@
+This is a port of nfd from premake to CMake.
+
 # Native File Dialog #
 
 A tiny, neat C library that portably invokes native file open, folder select and save dialogs.  Write dialog code once and have it pop up native dialogs on all supported platforms.  Avoid linking large dependencies like wxWidgets and qt.

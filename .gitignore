@@ -179,3 +179,7 @@ UpgradeLog*.htm
 *.bim_*.settings
 # Microsoft Fakes
 FakesAssemblies/
+
+# clion/cmake stuff.
+.idea/
+cmake-build-*
