@@ -15,6 +15,10 @@ set(SOURCE
 
 if (WIN32)
 	set(SOURCE ${SOURCE} src/nfd_win.cpp)
+elseif (APPLE)
+	set(SOURCE ${SOURCE} src/nfd_cocoa.m)
+else ()
+	set(SOURCE ${SOURCE} src/nfd_gtk.c)
 endif()
 
 add_library(nfd ${SOURCE})
